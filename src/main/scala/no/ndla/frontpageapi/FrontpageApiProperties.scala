@@ -23,7 +23,7 @@ object FrontpageApiProperties {
   val DefaultLanguage: String = propOrElse("DEFAULT_LANGUAGE", "nb")
   val ContactName: String = propOrElse("CONTACT_NAME", "NDLA")
   val ContactUrl: String = propOrElse("CONTACT_URL", "ndla.no")
-  val ContactEmail: String = propOrElse("CONTACT_EMAIL", "support+api@ndla.no")
+  val ContactEmail: String = propOrElse("CONTACT_EMAIL", "hjelp+api@ndla.no")
   val TermsUrl: String = propOrElse("TERMS_URL", "https://om.ndla.no/tos")
   val Auth0LoginEndpoint = s"https://${AuthUser.getAuth0HostForEnv(Environment)}/authorize"
 
